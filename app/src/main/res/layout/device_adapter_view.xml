@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_gravity="start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="#6E6E6E"
+                android:id="@+id/tvDeviceName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Name"
+                android:textSize="17sp" />
+            <TextView
+                android:textColor="#6E6E6E"
+                android:text="00000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvDeviceAddress"
+                android:textSize="13sp"/>
+    </LinearLayout>
+        <TextView
+            android:textColor="#6E6E6E"
+            android:text="Not Connected"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/connection"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

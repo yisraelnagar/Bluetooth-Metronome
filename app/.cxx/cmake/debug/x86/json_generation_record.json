@@ -1,0 +1,296 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 19 min SDK version: x86",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "No CMake version was specified in build.gradle. Using default version 3.10.2.",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Trying to locate CMake in local SDK repository.",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- CMake found in SDK at \u0027C:\\Users\\yisra\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "CMake \u00273.6.0\u0027 found in SDK did not match requested version \u00273.10.2\u0027.",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\.cxx\\cmake\\debug\\x86\\android_gradle_build.json due to:",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\.cxx\\cmake\\debug\\x86\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\.cxx\\cmake\\debug\\x86\\build_command.txt, will remove stale json folder",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\.cxx\\cmake\\debug\\x86\u0027",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\.cxx\\cmake\\debug\\x86\u0027",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : C:\\Users\\yisra\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe\narguments : \n-HC:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\n-DCMAKE_CXX_FLAGS\u003d-fsigned-char -IC:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\..\\..\\..\\Superpowered\n-DCMAKE_C_FLAGS\u003d-O3 -fsigned-char\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\yisra\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake\n-DANDROID_ABI\u003dx86\n-DANDROID_NDK\u003dC:\\Users\\yisra\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DCMAKE_ANDROID_NDK\u003dC:\\Users\\yisra\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\n-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\yisra\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d19\n-DANDROID_PLATFORM\u003dandroid-19\n-DANDROID_TOOLCHAIN\u003dclang\n-DANDROID_ARM_NEON\u003dTRUE\n-DANDROID_STL\u003dc++_static\n-DPATH_TO_SUPERPOWERED:STRING\u003dC:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\..\\..\\..\\Superpowered\n-BC:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\.cxx\\cmake\\debug\\x86\n-GNinja\njvmArgs : \n\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"C:/Users/yisra/AndroidStudioProjects/SuperPowered/Examples_Android/SuperpoweredPlayer - Copy/app\",\n  \"buildDirectory\": \"C:/Users/yisra/AndroidStudioProjects/SuperPowered/Examples_Android/SuperpoweredPlayer - Copy/app/.cxx/cmake/debug/x86\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_CXX_FLAGS\\u003d-fsigned-char -IC:\\\\Users\\\\yisra\\\\AndroidStudioProjects\\\\SuperPowered\\\\Examples_Android\\\\SuperpoweredPlayer - Copy\\\\app\\\\..\\\\..\\\\..\\\\Superpowered\",\n    \"-DCMAKE_C_FLAGS\\u003d-O3 -fsigned-char\",\n    \"-DCMAKE_BUILD_TYPE\\u003dDebug\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003dC:\\\\Users\\\\yisra\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\21.1.6352462\\\\build\\\\cmake\\\\android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003dx86\",\n    \"-DANDROID_NDK\\u003dC:\\\\Users\\\\yisra\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\21.1.6352462\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003dx86\",\n    \"-DCMAKE_ANDROID_NDK\\u003dC:\\\\Users\\\\yisra\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\21.1.6352462\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003dC:\\\\Users\\\\yisra\\\\AndroidStudioProjects\\\\SuperPowered\\\\Examples_Android\\\\SuperpoweredPlayer - Copy\\\\app\\\\build\\\\intermediates\\\\cmake\\\\debug\\\\obj\\\\x86\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003dC:\\\\Users\\\\yisra\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.10.2.4988404\\\\bin\\\\ninja.exe\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d19\",\n    \"-DANDROID_PLATFORM\\u003dandroid-19\",\n    \"-DANDROID_TOOLCHAIN\\u003dclang\",\n    \"-DANDROID_ARM_NEON\\u003dTRUE\",\n    \"-DANDROID_STL\\u003dc++_static\",\n    \"-DPATH_TO_SUPERPOWERED:STRING\\u003dC:\\\\Users\\\\yisra\\\\AndroidStudioProjects\\\\SuperPowered\\\\Examples_Android\\\\SuperpoweredPlayer - Copy\\\\app\\\\..\\\\..\\\\..\\\\Superpowered\"\n  ]\n}\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: C:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: C:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":33,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: C:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: C:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info - done",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features - done",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: C:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: C:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: C:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- broken\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: C:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- broken",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Error at C:/Users/yisra/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake:45 (message):\\n  The C++ compiler\\n\\n    \\\"C:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe\\\"\\n\\n  is not able to compile a simple test program.\\n\\n  It fails with the following output:\\n\\n    Change Dir: C:/Users/yisra/AndroidStudioProjects/SuperPowered/Examples_Android/SuperpoweredPlayer - Copy/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp\\n    \\n    Run Build Command:\\\"C:\\\\Users\\\\yisra\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.10.2.4988404\\\\bin\\\\ninja.exe\\\" \\\"cmTC_40ddd\\\"\\n    [1/2] Building CXX object CMakeFiles/cmTC_40ddd.dir/testCXXCompiler.cxx.o\\r\\n    FAILED: CMakeFiles/cmTC_40ddd.dir/testCXXCompiler.cxx.o \\r\\n    C:\\\\Users\\\\yisra\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\21.1.6352462\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\bin\\\\clang++.exe --target\u003di686-none-linux-android19 --gcc-toolchain\u003dC:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot\u003dC:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot    -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -fsigned-char -IC:\\\\Users\\\\yisra\\\\AndroidStudioProjects\\\\SuperPowered\\\\Examples_Android\\\\SuperpoweredPlayer - Copy\\\\app\\\\..\\\\..\\\\..\\\\Superpowered  -fPIE -o CMakeFiles/cmTC_40ddd.dir/testCXXCompiler.cxx.o -c testCXXCompiler.cxx\\r\\n    clang++: error: -E or -x required when input is from standard input\\r\\n    clang++: error: no such file or directory: \u0027Copy\\\\app\\\\..\\\\..\\\\..\\\\Superpowered\u0027\\r\\n    clang++: error: cannot specify -o when generating multiple output files\\r\\n    ninja: build stopped: subcommand failed.\\r\\n    \\n\\n  \\n\\n  CMake will not be able to correctly generate this project.\\nCall Stack (most recent call first):\\n  CMakeLists.txt\\n\\n\",\"title\":\"Error\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "ERROR",
+    "message": "CMake Error at C:/Users/yisra/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake:45 (message):\r\n  The C++ compiler\r\n\r\n    \"C:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe\"\r\n\r\n  is not able to compile a simple test program.\r\n\r\n  It fails with the following output:\r\n\r\n    Change Dir: C:/Users/yisra/AndroidStudioProjects/SuperPowered/Examples_Android/SuperpoweredPlayer - Copy/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp\r\n    \r\n    Run Build Command:\"C:\\Users\\yisra\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe\" \"cmTC_40ddd\"\r\n    [1/2] Building CXX object CMakeFiles/cmTC_40ddd.dir/testCXXCompiler.cxx.o\r\n    FAILED: CMakeFiles/cmTC_40ddd.dir/testCXXCompiler.cxx.o \r\n    C:\\Users\\yisra\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target\u003di686-none-linux-android19 --gcc-toolchain\u003dC:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot\u003dC:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot    -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -fsigned-char -IC:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\..\\..\\..\\Superpowered  -fPIE -o CMakeFiles/cmTC_40ddd.dir/testCXXCompiler.cxx.o -c testCXXCompiler.cxx\r\n    clang++: error: -E or -x required when input is from standard input\r\n    clang++: error: no such file or directory: \u0027Copy\\app\\..\\..\\..\\Superpowered\u0027\r\n    clang++: error: cannot specify -o when generating multiple output files\r\n    ninja: build stopped: subcommand failed.\r\n    \r\n\r\n  \r\n\r\n  CMake will not be able to correctly generate this project.\r\nCall Stack (most recent call first):\r\n  CMakeLists.txt\r\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring incomplete, errors occurred!\\nSee also \\\"C:/Users/yisra/AndroidStudioProjects/SuperPowered/Examples_Android/SuperpoweredPlayer - Copy/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeOutput.log\\\".\\nSee also \\\"C:/Users/yisra/AndroidStudioProjects/SuperPowered/Examples_Android/SuperpoweredPlayer - Copy/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeError.log\\\".\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Configuring incomplete, errors occurred!\r\nSee also \"C:/Users/yisra/AndroidStudioProjects/SuperPowered/Examples_Android/SuperpoweredPlayer - Copy/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeOutput.log\".\r\nSee also \"C:/Users/yisra/AndroidStudioProjects/SuperPowered/Examples_Android/SuperpoweredPlayer - Copy/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeError.log\".",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"errorMessage\":\"Configuration failed.\",\"inReplyTo\":\"configure\",\"type\":\"error\"}\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "ERROR",
+    "message": "Configuration failed.",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed with problem. Exception: com.android.ide.common.process.ProcessException: Error configuring CMake server (C:\\Users\\yisra\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin).\r\nCheck for working C compiler: C:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe\nCheck for working C compiler: C:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works\nDetecting C compiler ABI info\nDetecting C compiler ABI info - done\nDetecting C compile features\nDetecting C compile features - done\nCheck for working CXX compiler: C:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe\nCheck for working CXX compiler: C:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- broken\nCMake Error at C:/Users/yisra/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake:45 (message):\n  The C++ compiler\n\n    \"C:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe\"\n\n  is not able to compile a simple test program.\n\n  It fails with the following output:\n\n    Change Dir: C:/Users/yisra/AndroidStudioProjects/SuperPowered/Examples_Android/SuperpoweredPlayer - Copy/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp\n    \n    Run Build Command:\"C:\\Users\\yisra\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe\" \"cmTC_40ddd\"\n    [1/2] Building CXX object CMakeFiles/cmTC_40ddd.dir/testCXXCompiler.cxx.o\r\n    FAILED: CMakeFiles/cmTC_40ddd.dir/testCXXCompiler.cxx.o \r\n    C:\\Users\\yisra\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target\u003di686-none-linux-android19 --gcc-toolchain\u003dC:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot\u003dC:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot    -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -fsigned-char -IC:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\..\\..\\..\\Superpowered  -fPIE -o CMakeFiles/cmTC_40ddd.dir/testCXXCompiler.cxx.o -c testCXXCompiler.cxx\r\n    clang++: error: -E or -x required when input is from standard input\r\n    clang++: error: no such file or directory: \u0027Copy\\app\\..\\..\\..\\Superpowered\u0027\r\n    clang++: error: cannot specify -o when generating multiple output files\r\n    ninja: build stopped: subcommand failed.\r\n    \n\n  \n\n  CMake will not be able to correctly generate this project.\nCall Stack (most recent call first):\n  CMakeLists.txt\n\n\nConfiguring incomplete, errors occurred!\nSee also \"C:/Users/yisra/AndroidStudioProjects/SuperPowered/Examples_Android/SuperpoweredPlayer - Copy/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeOutput.log\".\nSee also \"C:/Users/yisra/AndroidStudioProjects/SuperPowered/Examples_Android/SuperpoweredPlayer - Copy/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeError.log\".\n",
+    "file": "C:\\Users\\yisra\\AndroidStudioProjects\\SuperPowered\\Examples_Android\\SuperpoweredPlayer - Copy\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  }
+]

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    android:orientation="vertical"
+    android:layout_gravity="top"
+    android:id="@+id/content"
+    tools:context=".MainActivity">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/OnOff"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:layout_height="wrap_content"
+            android:text="ON/OFF"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:text="Enable Discoverable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDiscoverable_on_off"
+            android:textColor="#FFFFFF"
+            />
+
+
+
+        <Button
+            android:background="@drawable/rounded_button"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnFindUnpairedDevices"
+            android:text="Discover"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/startClickButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="Start"
+        android:textColor="#FFFFFF" />
+
+    <View
+        android:id="@+id/beatImage"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp" />
+
+    <SeekBar
+        android:id="@+id/BPMSeekBar"
+        android:layout_width="404dp"
+        android:layout_height="30dp"
+        android:max="300"
+        android:progress="100"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tempoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="200dp"
+            android:layout_weight="10"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/tapTempo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:text="TAP"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startConnection"
+        android:text="START CONNECTION"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_button"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/send"
+            android:text="SEND"
+            android:layout_marginRight="10dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_button"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/message"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/availableDevices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#6E6E6E"
+        android:textStyle="bold"
+        android:text="Available Devices" />
+
+    <ListView
+        android:paddingRight="15dp"
+        android:id="@+id/lvNewDevices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+</LinearLayout>
+
+

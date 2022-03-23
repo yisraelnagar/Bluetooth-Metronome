@@ -1,0 +1,13 @@
+Determining if the CXX compiler works failed with the following output:
+Change Dir: C:/Users/yisra/AndroidStudioProjects/SuperPowered/Examples_Android/SuperpoweredPlayer - Copy/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\yisra\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_75d0b"
+[1/2] Building CXX object CMakeFiles/cmTC_75d0b.dir/testCXXCompiler.cxx.o
+FAILED: CMakeFiles/cmTC_75d0b.dir/testCXXCompiler.cxx.o 
+C:\Users\yisra\AppData\Local\Android\Sdk\ndk\21.1.6352462\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/yisra/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot    -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fsigned-char -IC:\Users\yisra\AndroidStudioProjects\SuperPowered\Examples_Android\SuperpoweredPlayer - Copy\app\..\..\..\Superpowered  -fPIE -o CMakeFiles/cmTC_75d0b.dir/testCXXCompiler.cxx.o -c testCXXCompiler.cxx
+clang++: error: -E or -x required when input is from standard input
+clang++: error: no such file or directory: 'Copy\app\..\..\..\Superpowered'
+clang++: error: cannot specify -o when generating multiple output files
+ninja: build stopped: subcommand failed.
+
+
